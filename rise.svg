@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>RISE</title>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="300" x2="0" y2="900">
+      <stop offset="0" stop-color="#FFE08A"/><stop offset="0.5" stop-color="#F5BD36"/><stop offset="1" stop-color="#D99A18"/>
+    </linearGradient>
+    <linearGradient id="r" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFE08A"/><stop offset="0.5" stop-color="#F5BD36"/><stop offset="1" stop-color="#D99A18"/>
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="15.5" fill="url(#r)"/>
+  <circle cx="16" cy="16" r="13.9" fill="#050505"/>
+  <circle cx="16" cy="16" r="13.3" fill="none" stroke="#D99A18" stroke-width="0.35"/>
+  <g transform="translate(16 16) scale(0.0337) translate(-625 -598)">
+    <g fill="url(#g)" stroke="none">
+      <circle cx="533" cy="298" r="19"/><circle cx="718" cy="296" r="19"/>
+      <ellipse cx="625" cy="408" rx="76" ry="58"/>
+      <path d="M550 488 L625 462 L700 488 L690 530 L625 506 L560 530Z"/>
+      <path d="M545 545 L625 520 L705 545 L695 590 L625 565 L555 590Z"/>
+      <path d="M552 605 L625 580 L698 605 L685 650 L625 628 L565 650Z"/>
+      <path d="M575 665 L625 650 L675 665 L625 738Z"/>
+      <g id="w">
+        <path d="M305 392 L345 380 L558 462 L548 487 L355 507 Q316 478 305 392Z"/>
+        <path d="M555 500 L450 575 Q405 628 382 592 Q370 562 400 535Z"/>
+      </g>
+      <use href="#w" transform="translate(1250 0) scale(-1 1)"/>
+    </g>
+    <g fill="#050505" stroke="none">
+      <path id="h" d="M338 410 L520 468 L368 490 Q346 468 338 410Z"/>
+      <path id="h2" d="M445 560 L510 515 L432 585Q412 600 408 580Z"/>
+      <use href="#h" transform="translate(1250 0) scale(-1 1)"/>
+      <use href="#h2" transform="translate(1250 0) scale(-1 1)"/>
+    </g>
+    <g fill="none" stroke="#F5BD36" stroke-width="24" stroke-linejoin="miter">
+      <path d="M590 365 L545 303"/><path d="M660 365 L706 303"/>
+      <path d="M412 880 V787 H470 Q498 787 498 816 Q498 845 470 845 H412 M460 845 L500 880"/>
+      <path d="M550 787 V880"/>
+      <path d="M700 787 H610 V830 H700 V873 H610"/>
+      <path d="M850 787 H760 V873 H850 M760 830 H840"/>
+    </g>
+  </g>
+</svg>
